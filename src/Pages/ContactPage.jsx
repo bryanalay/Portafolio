@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
 
 export default function ContatPage() {
@@ -5,6 +6,7 @@ export default function ContatPage() {
     <>
       <NavBar />
       <div className="h-screen bg-blue-300 mt-10 p-10 relative z-0">Contact!!</div>
+      <Footer/>
     </>
   );
 }

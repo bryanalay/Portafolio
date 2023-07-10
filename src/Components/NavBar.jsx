@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="w-full fixed top-0 bg-slate-400 flex py-2 px-4 justify-center sm:justify-between z-10">
+    <nav className="w-full h-[60px] fixed top-0 bg-slate-600 text-white flex py-2 px-4 justify-center sm:justify-between z-10 items-center">
       <div className="px-5">Icono</div>
       <ul className="sm:flex hidden">
         <li className="px-5">
