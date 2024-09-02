@@ -1,4 +1,3 @@
-import React from "react";
 
 const Card = () => {
   return (
@@ -15,42 +14,42 @@ const Card = () => {
           <ul className="flex items-center gap-5 h-16">
             <li>
               <img
-                className="rounded-full w-9 border-black border-[1px]"
+                className="rounded-full w-9 shadow-2xl"
                 src="https://cdn.icon-icons.com/icons2/1906/PNG/512/iconfinder-linkedin-4550875_121338.png"
                 alt="LNK"
               />
             </li>
             <li>
               <img
-                className="rounded-full w-9 border-black border-[1px] shadow-2xl"
+                className="rounded-full w-9 shadow-2xl"
                 src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                 alt="GH"
               />
             </li>
             <li>
               <img
-                className="rounded-full w-9 border-black border-[1px] shadow-2xl"
+                className="rounded-full w-9 shadow-2xl"
                 src="https://cdn.icon-icons.com/icons2/2415/PNG/512/google_original_logo_icon_146496.png"
                 alt="GM"
               />
             </li>
             <li>
               <img
-                className="rounded-full w-9 border-black border-[1px]"
+                className="rounded-full w-9 shadow-2xl"
                 src="https://cdn.icon-icons.com/icons2/1906/PNG/512/iconfinder-linkedin-4550875_121338.png"
                 alt="LNK"
               />
             </li>
             <li>
               <img
-                className="rounded-full w-9 border-black border-[1px] shadow-2xl"
+                className="rounded-full w-9 shadow-2xl"
                 src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                 alt="GH"
               />
             </li>
             <li>
               <img
-                className="rounded-full w-9 border-black border-[1px] shadow-2xl"
+                className="rounded-full w-9 shadow-2xl"
                 src="https://cdn.icon-icons.com/icons2/2415/PNG/512/google_original_logo_icon_146496.png"
                 alt="GM"
               />

@@ -23,7 +23,7 @@ const Content = () => {
       <div className="h-[82x4px] sm:h-[471px] grid grid-cols-1 row-span-2 sm:row-span-3 sm:grid-cols-3">
         <div className="sm:col-span-1 grid justify-center">
           <img
-            className="h-56 w-56 mt-10 sm:mt-20 shadow-2xl rounded-full border-black border-[4px]"
+            className="h-56 w-56 mt-10 sm:mt-20 shadow-2xl rounded-full"
             src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
             alt="imagen"
           />

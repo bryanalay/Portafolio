@@ -1,7 +1,6 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { createBrowserRouter, Router, RouterProvider } from "react-router-dom";
+import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import HomePage from "./Pages/HomePage.jsx";
 import ProjectPage from "./Pages/ProjectPage.jsx";
 import ContatPage from "./Pages/ContactPage.jsx";
