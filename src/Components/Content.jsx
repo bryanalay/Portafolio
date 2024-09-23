@@ -26,7 +26,9 @@ const Content = () => {
             className="h-56 w-56 mt-10 sm:mt-20 shadow-2xl rounded-full"
             src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
             alt="imagen"
-          />
+            />
+          <h3 className="font-black h-5 text-lg mt-2">Bryan Miguel Alay Miranda</h3>
+          <h1>ws: +593 0991679883</h1>
           {console.log(array)}
           <Items array={array}/>
           

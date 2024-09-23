@@ -10,7 +10,6 @@ const Item = ({ item }) => {
           src={img}
           alt="LNK"
         />
-        {console.log("si me imprimi!!")}
       </a>
     </li>
   );
