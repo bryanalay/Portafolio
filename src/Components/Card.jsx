@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Card = () => {
   return (
@@ -7,7 +8,10 @@ const Card = () => {
           <h1 className="text-lg">Fullstack web developer</h1>
           <p className="font-thin">
           Especializado en el stack PERN: PostgreSQL, Express, React, Node.js
-          <br /> ir a <a href="/projects" className="hover:text-blue-700 font-black">projectos</a>.
+          <br /> ir a 
+          <Link to={"/projects"}>
+          <span className="hover:text-blue-700 font-black"> projectos</span>.
+          </Link>
             <br /> Con conocimientos de python, flutter, java, c#.
             <br /> Interes en IOT y modelos de machine learning.
           </p>
