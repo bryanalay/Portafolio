@@ -1,4 +1,3 @@
-import Footer from "./Footer";
 import Items from "./Items";
 import PresentationCard from "./PresentationCard";
 
@@ -19,23 +18,21 @@ const Content = () => {
   ];
 
   return (
-    <div className="grid grid-rows-3 sm:grid-rows-4 mt-[60px] bg-slate-100">
-      <div className="h-[82x4px] sm:h-[471px] grid grid-cols-1 row-span-2 sm:row-span-3 sm:grid-cols-3">
-        <div className="sm:col-span-1 grid justify-center">
+    <div className="grid grid-rows-2 sm:grid-rows-4 mt-[60px] bg-slate-100">
+      <div className="h-full sm:h-[565px] grid grid-cols-1 row-span-2 sm:row-span-4 sm:grid-cols-3">
+        <div className="col-span-1 grid justify-center items-center m-10 gap-y-3">
           <img
-            className="h-56 w-56 mt-10 sm:mt-20 shadow-2xl rounded-full"
+            className="h-56 w-56  shadow-2xl rounded-full"
             src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
             alt="imagen"
             />
-          <h3 className="font-black h-5 text-lg mt-2">Bryan Miguel Alay Miranda</h3>
+          <h3 className="font-black text-lg">Bryan Miguel Alay Miranda</h3>
           <h1>ws: +593 0991679883</h1>
           {console.log(array)}
           <Items array={array}/>
-          
         </div>
         <PresentationCard />
       </div>
-      <Footer />
     </div>
   );
 };

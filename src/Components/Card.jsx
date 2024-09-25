@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Card = () => {
   return (
-    <div className="sm:w-[380px] md:[500px] h-full sm:rounded-2xl lg:w-[600px] shadow-2xl sm:border-black border-y-black border-[1px] sm:h-80 bg-slate-100 flex justify-center items-center sm:mt-20">
+    <div className="sm:w-[380px] md:w-[500px]  sm:rounded-2xl lg:w-[600px] shadow-2xl sm:border-black border-y-black border-[1px] sm:h-96 bg-slate-100 flex justify-center items-center">
       <div className="mx-10 mt-10 mb-10">
         <div className="w-full h-full space-y-3 font-extrabold">
           <h1 className="text-lg">Fullstack web developer</h1>
