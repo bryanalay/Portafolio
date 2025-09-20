@@ -33,14 +33,14 @@ const Card = () => {
             <li>
               <img
                 className="w-10"
-                src="https://static-00.iconduck.com/assets.00/react-icon-512x456-5xl7nmtw.png"
+                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
                 alt="REACT"
               />
             </li>
             <li>
               <img
                 className="w-10"
-                src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+                src="https://images.icon-icons.com/2415/PNG/512/nodejs_original_logo_icon_146411.png"
                 alt="NODEJS"
               />
             </li>
