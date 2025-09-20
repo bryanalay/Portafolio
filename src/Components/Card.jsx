@@ -2,17 +2,17 @@ import { Link } from "react-router-dom";
 
 const Card = () => {
   return (
-    <div className="sm:w-[380px] md:w-[500px] sm:rounded-lg lg:w-[600px] sm:border border-gray-200 dark:border-gray-700 sm:h-96 bg-white dark:bg-gray-800 flex justify-center items-center">
+    <div className="sm:w-[380px] md:w-[500px] sm:rounded-lg lg:w-[600px] sm:border border-platinum-400 dark:border-hookers_green-400 sm:h-96 bg-platinum-900 dark:bg-dark_green flex justify-center items-center">
       <div className="mx-12 mt-12 mb-12">
         <div className="w-full h-full space-y-4">
-          <h1 className="text-xl font-semibold text-gray-900 dark:text-white">Fullstack web developer</h1>
-          <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+          <h1 className="text-xl font-semibold text-hookers_green-200 dark:text-platinum-900">Fullstack web developer</h1>
+          <p className="text-cambridge_blue-400 dark:text-platinum-700 leading-relaxed">
           Especializado en el stack PERN: PostgreSQL, Express, React, Node.js
           <br /> ir a
           <Link to={"/projects"}>
-          <span className="hover:text-blue-600 dark:hover:text-blue-500 font-medium text-gray-900 dark:text-white"> proyectos</span>.
+          <span className="hover:text-mint dark:hover:text-mint-600 font-medium text-hookers_green-200 dark:text-platinum-900"> proyectos</span>.
           </Link>
-            <br /> Con conocimientos de python, flutter, java, c#.
+            <br /> Con conocimientos de typescript, python, flutter, java, c#.
             <br /> Interes en IOT y modelos de machine learning.
           </p>
           <ul className="flex items-center gap-6">

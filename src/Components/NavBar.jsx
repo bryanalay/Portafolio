@@ -7,11 +7,11 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="w-full h-[60px] fixed top-0 bg-white dark:bg-gray-900 text-gray-900 dark:text-white flex items-center justify-between py-4 px-6 sm:justify-center z-10 border-b border-gray-200 dark:border-gray-700">
+      <nav className="w-full h-[60px] fixed top-0 bg-platinum-900 dark:bg-dark_green text-hookers_green-200 dark:text-platinum-900 flex items-center justify-between py-4 px-6 sm:justify-center z-10 border-b border-platinum-400 dark:border-hookers_green-400">
       <button className="sm:hidden inline-block rounded-sm p-2 h-10 w-10 flex flex-col justify-center items-center space-y-1" onClick={()=>{setIsOpen(!isOpen)}}>
-        <div className="w-6 h-0.5 bg-gray-900 dark:bg-white"></div>
-        <div className="w-6 h-0.5 bg-gray-900 dark:bg-white"></div>
-        <div className="w-6 h-0.5 bg-gray-900 dark:bg-white"></div>
+        <div className="w-6 h-0.5 bg-hookers_green-200 dark:bg-platinum-900"></div>
+        <div className="w-6 h-0.5 bg-hookers_green-200 dark:bg-platinum-900"></div>
+        <div className="w-6 h-0.5 bg-hookers_green-200 dark:bg-platinum-900"></div>
       </button>
       <div className="absolute left-1/2 transform -translate-x-1/2 sm:static sm:translate-x-5 sm:left-0"><img src="https://i.imgur.com/YjKkmgp.png" alt="almilogo" width={'65'} /></div>
       <ul className="sm:flex hidden ml-auto items-center">
@@ -26,7 +26,7 @@ const NavBar = () => {
         </li>
       </ul>
     </nav>
-    <div className={` fixed left-0 w-full sm:w-[250px] bg-white dark:bg-gray-900 text-gray-900 dark:text-white transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 z-20 top-[60px] border-r border-gray-200 dark:border-gray-700`}>
+    <div className={` fixed left-0 w-full sm:w-[250px] bg-platinum-900 dark:bg-dark_green text-hookers_green-200 dark:text-platinum-900 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 z-20 top-[60px] border-r border-platinum-400 dark:border-hookers_green-400`}>
         <ul className="p-4">
           <li className="py-2"><Link to={"/"}>Inicio</Link></li>
           <li className="py-2"><Link to={"/projects"}>Proyectos</Link></li>

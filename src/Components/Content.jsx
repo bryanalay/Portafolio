@@ -18,7 +18,7 @@ const Content = () => {
   ];
 
   return (
-    <div className="grid grid-rows-2 sm:grid-rows-4 mt-[60px] bg-gray-50 dark:bg-gray-900 min-h-screen">
+    <div className="grid grid-rows-2 sm:grid-rows-4 mt-[60px] bg-platinum-800 dark:bg-dark_green min-h-screen">
       <div className="h-full sm:h-[565px] grid grid-cols-1 row-span-2 sm:row-span-4 sm:grid-cols-3">
         <div className="col-span-1 grid justify-center items-center m-16 gap-y-6">
           <img
@@ -26,8 +26,8 @@ const Content = () => {
             src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
             alt="imagen"
             />
-          <h1 className="font-bold text-2xl text-gray-900 dark:text-white">Bryan Miguel Alay Miranda</h1>
-          <h2 className="text-lg text-gray-600 dark:text-gray-400">ws: +593 0991679883</h2>
+          <h1 className="font-bold text-2xl text-hookers_green-200 dark:text-platinum-900">Bryan Miguel Alay Miranda</h1>
+          <h2 className="text-lg text-cambridge_blue-400 dark:text-platinum-700">ws: +593 0991679883</h2>
           <Items array={array}/>
         </div>
         <PresentationCard />

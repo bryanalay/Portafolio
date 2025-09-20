@@ -4,7 +4,7 @@ import NavBar from "../Components/NavBar";
 
 const HomePage = () => {
   return (
-    <div className="grid h-full sm:h-[780px] w-full bg-white dark:bg-gray-900">
+    <div className="grid h-full sm:h-[780px] w-full bg-platinum-900 dark:bg-dark_green">
       <NavBar />
       <Content/>
       <Footer />
