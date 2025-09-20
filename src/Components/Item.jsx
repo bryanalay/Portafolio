@@ -6,7 +6,7 @@ const Item = ({ item }) => {
     <li key={id}>
       <a href={link} target="_blank" rel="noreferrer">
         <img
-          className="rounded-full w-9 shadow-2lg"
+          className="rounded-full w-10"
           src={img}
           alt="LNK"
         />

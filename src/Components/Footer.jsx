@@ -1,30 +1,25 @@
+import { Link } from "react-router-dom";
 
 const Footer = () => {
+
+  const year = new Date().getUTCFullYear();
+
   return (
-    <footer className="flex h-auto sm:py-10 bg-slate-600 justify-center items-center">
-      <div className="grid grid-rows-3 p-5 sm:flex h-full w-full items-center justify-center gap-5 sm:gap-52 text-white">
+    <footer className="flex h-auto py-12 bg-gray-100 dark:bg-gray-800 justify-center items-center">
+      <div className="grid grid-rows-3 p-8 sm:flex h-full w-full items-center justify-center gap-8 sm:gap-32 text-gray-900 dark:text-white">
         <ul className="row-span-1">
-          <li className="font-bold">Pages</li>
+          <li className="font-bold">Paginas</li>
           <li>
-            <a className="" href="/">
-              Home
-            </a>
+            <Link to={'/'}>Inicio</Link>            
           </li>
           <li>
-            <a className="" href="/projects">
-              Projects
-            </a>
-          </li>
-          <li>
-            <a className="" href="/contact">
-              Contact
-            </a>
+            <Link to={'/projects'}>Proyectos</Link>
           </li>
         </ul>
         <ul className="row-span-1">
           <li>
             <a className="font-bold decoration-slice" href="/contact">
-              Contact
+              Contacto
             </a>
           </li>
           <li>
@@ -36,7 +31,7 @@ const Footer = () => {
         </ul>
         
         <p className="text-sm text-white">
-          &copy; 2023 AlmiDev. Todos los derechos reservados.
+          &copy; {year} AlmiDev. Todos los derechos reservados.
         </p>
       </div>
     </footer>

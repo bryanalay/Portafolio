@@ -4,6 +4,12 @@ import NavBar from "../Components/NavBar";
 import Projects from "../Components/Projects";
 
 export default function ProjectPage() {
+  //imagen logo letra negras
+  //https://i.imgur.com/YjKkmgp.png
+  //imagen logo logo
+  //https://i.imgur.com/JicdDhu.png
+  //imagen logo letra blancas
+  //https://i.imgur.com/JicdDhu.png
   const projs = [
     {
       img: "https://i.imgur.com/Rz70xAj.png",
@@ -61,13 +67,37 @@ export default function ProjectPage() {
         },
       ],
     },
+    {
+      img: "https://i.imgur.com/O3xVZLL.png",
+      title: "Coco Apple class CNN ML",
+      link: "https://qrgen-one.vercel.app/",
+      gh: "https://github.com/bryanalay/qrgen",
+      icons: [
+        {
+          src: "https://static-00.iconduck.com/assets.00/react-icon-512x456-5xl7nmtw.png",
+          alter: "React",
+        },
+      ],
+    },
+    {
+      img: "https://i.imgur.com/O3xVZLL.png",
+      title: "IOT socket pin",
+      link: "https://qrgen-one.vercel.app/",
+      gh: "https://github.com/bryanalay/qrgen",
+      icons: [
+        {
+          src: "https://static-00.iconduck.com/assets.00/react-icon-512x456-5xl7nmtw.png",
+          alter: "React",
+        },
+      ],
+    },
   ];
 
   return (
-    <div className="grid w-full h-full">
+    <div className="grid w-full h-full bg-white dark:bg-gray-900">
       <NavBar />
-      <div className="grid justify-center items-center h-auto sm:h-[605px] w-full lg:grid bg-slate-100 sm:mt-5  mt-10 p-10 relative z-0">
-        <div className="w-full text-3xl text-center font-extrabold pb-5 sm:py-5">
+      <div className="grid justify-center items-center h-auto w-full lg:grid bg-slate-100 dark:bg-slate-800 sm:mt-5  mt-10 p-10 relative z-0">
+        <div className="w-full text-3xl text-center font-extrabold pb-5 sm:py-5 text-gray-900 dark:text-white">
           Proyectos
         </div>
         <Projects projs={projs} />

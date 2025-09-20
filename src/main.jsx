@@ -3,6 +3,7 @@ import "./index.css";
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import HomePage from "./Pages/HomePage.jsx";
 import ProjectPage from "./Pages/ProjectPage.jsx";
+import { ThemeProvider } from "./contexts/ThemeContext.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,5 +17,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+  <ThemeProvider>
+    <RouterProvider router={router} />
+  </ThemeProvider>
 );
