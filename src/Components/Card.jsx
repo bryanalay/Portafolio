@@ -44,6 +44,13 @@ const Card = () => {
                 alt="NODEJS"
               />
             </li>
+            <li>
+              <img
+                className="w-10"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
+                alt="TYPESCRIPT"
+              />
+            </li>
           </ul>
           <ul className="flex items-center gap-6 space-y-0">
           <li>
